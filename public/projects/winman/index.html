@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Winman - </title>
+        <meta name="description" content="" />
+        <link rel="stylesheet" href="/css/style.css" />
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="container">
+                <a href="/" class="logo">William Degard</a>
+                <ul class="nav-links">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/projects/">Projects</a></li>
+                    <li><a href="/about/">About</a></li>
+                    <li><a href="/resume">Resume</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <main>
+<article class="page-content">
+    <div class="container">
+        <h1>Winman</h1>
+        <div class="content"><h2 id="overview">Overview</h2>
+<p>A Windows manual page like linux's man command. Built with Rust.</p>
+<div class="section-spacing">
+<h2 id="features">Features</h2>
+<ul>
+<li>PowerShell command management</li>
+<li>Manual page generation for powershell commands</li>
+<li>Easy-to-use command-line interface</li>
+</ul>
+<div class="section-spacing">
+<h2 id="tech-stack">Tech Stack</h2>
+<ul>
+<li>Rust</li>
+<li>WiX Toolset v3</li>
+<li>powershell</li>
+</ul>
+<div class="section-spacing">
+<h2 id="challenges">Challenges</h2>
+<p>Integrating commands.json within the WiX Toolset v3 environment presented a unique challenge in asset management. I had to develop a reliable method for the MSI installer to include this critical JSON configuration, maintaining file integrity and ensuring the correct installation paths were established for the Winman rewrite to function immediately out of the box.
+During the development process, I initially explored using an MSIX installer to take advantage of modern containerization. However, I encountered significant blockers with SignTool and certificate validation that impeded the automated build pipeline. To prioritize a stable, distributable release, I pivoted back to WiX v3, successfully troubleshooting the XML schema requirements to ensure all dependencies were correctly bundled.<div class="section-spacing"></p>
+<h2 id="screenshots">Screenshots</h2>
+<p><img src="/winman-cli.png" alt="Winman" />
+<img src="/winman.gif" alt="Winman-gif" /></p>
+</div>
+    </div>
+</article>
+</main>
+
+        <footer>
+            <div class="container">
+                <p>&copy; 2026 William Degard</p>
+                <div class="social-links">
+                    <a href="https:&#x2F;&#x2F;github.com&#x2F;LoreRealm">GitHub</a>
+                    <a href="mailto:lorerealm@proton.me">Email</a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

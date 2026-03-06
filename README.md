@@ -1,4 +1,7 @@
 # William Degard - Portfolio
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1dc34ebc-daef-48bc-9a29-4e024f2b8812/deploy-status)](https://app.netlify.com/projects/william-degard-portfolio/deploys)
+
+
 
 Welcome to my personal portfolio website showcasing my projects, skills, and experience as a software developer.
 

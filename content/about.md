@@ -34,6 +34,7 @@ Provided IT managed services to various clients.
 
 Built web applications using React.
 <div class="section-spacing">
+
 ## Contact
 
 Feel free to reach out at email link below or open an issue on GitHub.

@@ -1,0 +1,33 @@
+{% extends "base.html" %} {% block title %}{{ page.title }} - {{ config.title
+}}{% endblock %} {% block content %}
+<article class="project-detail">
+    <header class="project-header">
+        <div class="container">
+            <h1>{{ page.title }}</h1>
+            <p class="lead">{{ page.description }}</p>
+
+            {% if page.extra.tags %}
+            <div class="tags">
+                {% for tag in page.extra.tags %}
+                <span class="tag">{{ tag }}</span>
+                {% endfor %}
+            </div>
+            {% endif %}
+
+            <div class="project-links">
+                {% if page.extra.github %}
+                <a href="{{ page.extra.github }}" class="btn">GitHub</a>
+                {% endif %} {% if page.extra.demo %}
+                <a href="{{ page.extra.demo }}" class="btn btn-primary"
+                    >Live Demo</a
+                >
+                {% endif %}
+            </div>
+        </div>
+    </header>
+
+    <section class="project-content">
+        <div class="container">{{ page.content | safe }}</div>
+    </section>
+</article>
+{% endblock %}

@@ -29,7 +29,12 @@ A Windows manual page like linux's man command. Built with Rust.
 
 ## Challenges
 Integrating commands.json within the WiX Toolset v3 environment presented a unique challenge in asset management. I had to develop a reliable method for the MSI installer to include this critical JSON configuration, maintaining file integrity and ensuring the correct installation paths were established for the Winman rewrite to function immediately out of the box.
-During the development process, I initially explored using an MSIX installer to take advantage of modern containerization. However, I encountered significant blockers with SignTool and certificate validation that impeded the automated build pipeline. To prioritize a stable, distributable release, I pivoted back to WiX v3, successfully troubleshooting the XML schema requirements to ensure all dependencies were correctly bundled.<div class="section-spacing">
+During the development process, I initially explored using an MSIX installer to take advantage of modern containerization. However, I encountered significant blockers with SignTool and certificate validation that impeded the automated build pipeline. To prioritize a stable, distributable release, I pivoted back to WiX v3, successfully troubleshooting the XML schema requirements to ensure all dependencies were correctly bundled.
+<div class="section-spacing">
+
+**[View on GitHub](https://github.com/LoreRealm/Winman)** 
+<div class="section-spacing">
+
 
 ## Screenshots
 ![Winman](/winman-cli.png)

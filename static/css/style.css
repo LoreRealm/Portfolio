@@ -47,11 +47,11 @@ body {
 
 .nav-links a {
     text-decoration: none;
-    color: #666;
+    color: #a59f90;
 }
 
 .nav-links a:hover {
-    color: #333;
+    color: #a4a4a4;
 }
 
 .hero {

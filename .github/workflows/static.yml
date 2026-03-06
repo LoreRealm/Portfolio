@@ -1,6 +1,10 @@
 name: Zola on GitHub Pages
 
 on: 
+permissions:
+  contents: write
+  pages: write
+  id-token: write
  push:
   branches:
    - main

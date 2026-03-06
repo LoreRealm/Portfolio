@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://github.com/LoreRealm/Portfolio"
+base_url = "https://william-degard-portfolio.netlify.app"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true

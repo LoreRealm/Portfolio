@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://github.com/LoreRealm/Portfolio/</loc>
+        <loc>https://william-degard-portfolio.netlify.app/</loc>
     </url>
     <url>
-        <loc>https://github.com/LoreRealm/Portfolio/about/</loc>
+        <loc>https://william-degard-portfolio.netlify.app/about/</loc>
     </url>
     <url>
-        <loc>https://github.com/LoreRealm/Portfolio/projects/</loc>
+        <loc>https://william-degard-portfolio.netlify.app/projects/</loc>
     </url>
     <url>
-        <loc>https://github.com/LoreRealm/Portfolio/projects/lorerealm-website/</loc>
+        <loc>https://william-degard-portfolio.netlify.app/projects/lorerealm-website/</loc>
         <lastmod>2026-03-04</lastmod>
     </url>
     <url>
-        <loc>https://github.com/LoreRealm/Portfolio/projects/winman/</loc>
+        <loc>https://william-degard-portfolio.netlify.app/projects/winman/</loc>
         <lastmod>2026-03-04</lastmod>
     </url>
     <url>
-        <loc>https://github.com/LoreRealm/Portfolio/resume/</loc>
+        <loc>https://william-degard-portfolio.netlify.app/resume/</loc>
     </url>
 </urlset>

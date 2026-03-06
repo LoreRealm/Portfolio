@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 Allow: /
-Sitemap: https://github.com/LoreRealm/Portfolio/sitemap.xml
+Sitemap: https://william-degard-portfolio.netlify.app/sitemap.xml

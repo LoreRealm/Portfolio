@@ -33,7 +33,7 @@ Provided IT managed services to various clients.
 **Fat Eddie Industries** | 2017 - 2019
 
 Built web applications using React.
-
+<div class="section-spacing">
 ## Contact
 
 Feel free to reach out at email link below or open an issue on GitHub.

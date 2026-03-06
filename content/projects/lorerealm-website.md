@@ -36,6 +36,17 @@ LoreRealm is a Pathfinder2E Campaign showcase website featuring unique RPG chara
 The main challenge wasn't just aesthetic; it was the grueling process of sourcing a pre-made d20 SVG that could actually survive the wild west of cross-device rendering. Finding a file that looked sharp was easy, but finding one with a clean internal structure—free of the "code bloat" that kills website optimization—felt nearly impossible.
 <div class="section-spacing">
 
+<div class="markdown-link">
+
+**[View on GitHub](https://github.com/LoreRealm/Lorerealm-Website)**
+</div>
+<div class="section-spacing">
+<div class="markdown-link">
+
+**[View Live](https://lorerealm.github.io/Lorerealm-Website/)**
+</div>
+<div class="section-spacing">
+
 ## Screenshots
 
 ![Homepage](/lorerealm-home.png)

@@ -7,11 +7,10 @@ date = 2026-03-04
 image = "winman.png"
 tags = ["Rust", "CLI", "Powershell", "Software Development"]
 github = "https://github.com/LoreRealm/Winman"
-demo = "https://github.com/LoreRealm/Winman"
 +++
 
 ## Overview
-A Windows manual page like linux's man command. Built with Rust.
+A Windows manual page like linux's man command. Built with Rust. This command line utility provides easy acess to any commands, usage, examples, and purpose of said commnad searched. It has over one thousands commands.
 <div class="section-spacing">
 
 ## Features

@@ -14,7 +14,7 @@ endblock %} {% block content %}
             <article class="project-card">
                 {% if project.extra.image %}
                 <img
-                    src="{{ site.extra.image_path }}"
+                    src="/{{ project.extra.image }}"
                     alt="{{ project.title }}"
                 />
 

@@ -2,6 +2,10 @@
 <section class="hero">
     <div class="container">
         <h1>Hi, I'm {{ config.extra.author }}</h1>
+        <div class="container-about">
+            {% set about_page = get_page(path="about.md") %}
+            {{about_page.content | safe }}
+        </div>
         <p class="lead">{{ config.description }}</p>
         <div class="cta-buttons">
             <a
@@ -9,32 +13,8 @@
                 class="btn btn-primary"
                 >View Projects</a
             >
-            <a href="/about/" class="btn btn-secondary">About Me</a>
         </div>
     </div>
 </section>
 
-<section class="featured-projects">
-    <div class="container">
-        <h2>Featured Projects</h2>
-
-        {% set projects = get_section(path="projects/_index.md") %}
-        <div class="project-grid">
-            {% for project in projects.pages | slice(end=3) %}
-            <article class="project-card">
-                {% if project.extra.image %}
-                <img
-                    class="lorerealm-img"
-                    src="/{{ project.extra.image }}"
-                    alt="{{ project.title }}"
-                />
-                {% endif %}
-                <h3>{{ project.title }}</h3>
-                <p>{{ project.description }}</p>
-                <a href="{{ project.permalink }}" class="link">Learn more →</a>
-            </article>
-            {% endfor %}
-        </div>
-    </div>
-</section>
 {% endblock %}

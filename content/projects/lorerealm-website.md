@@ -12,7 +12,7 @@ demo = "https://lorerealm.github.io/Lorerealm-Website/"
 
 ## Overview
 
-LoreRealm is a Pathfinder2E Campaign showcase website featuring unique RPG characters with custom animations and interactive elements.
+LoreRealm is a Pathfinder2E Campaign showcase website featuring unique RPG characters with custom animations and interactive elements. This website allows the players to explore the campaign and interact with the character's sheets with ease. Eventually the website will allow api integration for character sheets and login.
 <div class="section-spacing">
 
 ## Features
@@ -22,6 +22,7 @@ LoreRealm is a Pathfinder2E Campaign showcase website featuring unique RPG chara
 - Responsive design
 - Clean, minimal interface
 - Stylized Website
+- campaign timeline
 <div class="section-spacing">
 
 ## Tech Stack
@@ -31,16 +32,18 @@ LoreRealm is a Pathfinder2E Campaign showcase website featuring unique RPG chara
 - Javascipt converted from typescript
 <div class="section-spacing">
 
+## Future Plans
+
+- completed timeline
+- rust backend and react frontend
+- api integration for character sheets
+- login system
+- contact form
+<div class="section-spacing">
+
 ## Challenges
 
 The main challenge wasn't just aesthetic; it was the grueling process of sourcing a pre-made d20 SVG that could actually survive the wild west of cross-device rendering. Finding a file that looked sharp was easy, but finding one with a clean internal structure—free of the "code bloat" that kills website optimization—felt nearly impossible.
-<div class="section-spacing">
-
-
-**[View on GitHub](https://github.com/LoreRealm/Lorerealm-Website)**
-<div class="section-spacing">
-
-**[View Live](https://lorerealm.github.io/Lorerealm-Website/)**
 <div class="section-spacing">
 
 ## Screenshots

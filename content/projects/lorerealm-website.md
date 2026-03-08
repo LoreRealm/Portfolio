@@ -7,7 +7,7 @@ date = 2026-03-04
 image = "lorerealm.png"
 tags = ["HTML", "CSS", "TypeScript", "Web Design"]
 github = "https://github.com/LoreRealm/Lorerealm-Website"
-demo = "https://lorerealm.github.io/Lorerealm-Website/"
+demo = "https://lorerealm.quest"
 +++
 
 ## Overview
